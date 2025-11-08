@@ -1,8 +1,8 @@
 # VPN-internet
 
-## Scenario:
+## Scenario
 
-### Receiving internet from a wireless hotspot and sharing it with MikroTik users via VPN
+#### Receiving internet from a wireless hotspot and sharing it with MikroTik users via VPN
 
 > We want a MikroTik router that receives internet from a hotspot and routes all bridge clients through an L2TP VPN, with no direct internet access from the LAN, while maintaining a stable VPN connection.
 
@@ -29,5 +29,6 @@
 10. IP -> Routes -> + -> Dst. Address:0.0.0.0/0 --- Gateway:l2tp-out1 --- RoutingTable:vpn
 
 11. IP -> Routes -> + -> Dst. Address:0.0.0.0/0 --- Gateway:<your wlan1 ip>172.20.10.1 --- RoutingTable:main
+
 
 
